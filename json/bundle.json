@@ -1,45 +1,40 @@
 {
-  "version": "1.0.0",
-  "bundles": [
-    {
-      "uri": "lib.utils",
-      "pkg": "net.wequick.example.small.lib.utils"
-    },
-    {
-      "uri": "lib.style",
-      "pkg": "com.example.mysmall.lib.style"
-    },
-    {
-      "uri": "lib.analytics",
-      "pkg": "net.wequick.example.lib.analytics"
-    },
-    {
-      "uri": "main",
-      "pkg": "net.wequick.example.small.app.main"
-    },
-    {
-      "uri": "test1",
-      "pkg": "small.example.wequick.net.app.test1"
-    },
-    {
-      "uri": "home",
-      "pkg": "net.wequick.example.small.app.home"
-    },
-    {
-      "uri": "mine",
-      "pkg": "net.wequick.example.small.app.mine"
-    },
-    {
-      "uri": "detail",
-      "pkg": "net.wequick.example.small.app.detail",
-      "rules": {
-        "sub": "Sub"
+  "manifest": {
+    "version": "1.0.0",
+    "bundles": [
+      {
+        "uri": "main",
+        "pkg": "com.example.app.main"
+      },
+      {
+        "uri": "home",
+        "pkg": "com.example.app.home"
+      },
+      {
+        "uri": "mvp",
+        "pkg": "com.example.app.mvp"
+      },
+      {
+        "uri": "image",
+        "pkg": "com.example.app.image"
+      },
+      {
+        "uri": "lib.glide",
+        "pkg": "com.example.lib.gilde"
+      },
+      {
+        "uri": "add",
+        "pkg": "com.example.app.add"
       }
+    ]
+  "updates":[
+    {
+      "pkg": "com.example.app.add",
+      "url": "http://wequick.github.io/small/upgrade/libnet_wequick_example_small_app_about.so"
     },
     {
-      "uri": "about",
-      "pkg": "net.wequick.example.small.web.about"
+      "pkg": "com.example.app.main",
+      "url": "http://wequick.github.io/small/upgrade/libnet_wequick_example_small_lib_utils.so"
     }
-
   ]
 }
