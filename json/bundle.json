@@ -27,14 +27,15 @@
         "pkg": "com.example.app.add"
       }
     ]
+  },
   "updates":[
     {
       "pkg": "com.example.app.add",
-      "url": "http://wequick.github.io/small/upgrade/libnet_wequick_example_small_app_about.so"
+      "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_add.so"
     },
     {
       "pkg": "com.example.app.main",
-      "url": "http://wequick.github.io/small/upgrade/libnet_wequick_example_small_lib_utils.so"
+      "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_main.so"
     }
   ]
 }
