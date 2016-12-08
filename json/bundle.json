@@ -9,10 +9,6 @@
     {
       "uri":"home",
       "pkg":"com.example.app.home"
-    },
-    {
-      "uri":"add",
-      "pkg":"com.example.app.add"
     }
   ]
  },
