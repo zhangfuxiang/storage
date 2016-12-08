@@ -9,17 +9,21 @@
     {
       "uri":"home",
       "pkg":"com.example.app.home"
+    },
+	{
+      "uri":"add",
+      "pkg":"com.example.app.add"
     }
   ]
  },
  "updates": [
   {
     "pkg": "com.example.app.main",
-    "url": "http://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_main.so"
+    "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_main.so"
   },
   {
     "pkg": "com.example.app.add",
-    "url": "http://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_add.so"
+    "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_add.so"
   }
  ]
 }
