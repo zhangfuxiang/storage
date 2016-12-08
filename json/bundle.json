@@ -19,11 +19,11 @@
  "updates": [
   {
     "pkg": "com.example.app.main",
-    "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_main.so"
+    "url": "http://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_main.so"
   },
   {
     "pkg": "com.example.app.add",
-    "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_add.so"
+    "url": "http://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_add.so"
   }
  ]
 }
