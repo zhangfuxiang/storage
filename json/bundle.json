@@ -1,41 +1,29 @@
 {
-  "manifest": {
-    "version": "1.0.0",
-    "bundles": [
-      {
-        "uri": "main",
-        "pkg": "com.example.app.main"
-      },
-      {
-        "uri": "home",
-        "pkg": "com.example.app.home"
-      },
-      {
-        "uri": "mvp",
-        "pkg": "com.example.app.mvp"
-      },
-      {
-        "uri": "image",
-        "pkg": "com.example.app.image"
-      },
-      {
-        "uri": "lib.glide",
-        "pkg": "com.example.lib.gilde"
-      },
-      {
-        "uri": "add",
-        "pkg": "com.example.app.add"
-      }
-    ]
-  },
-  "updates":[
+ "manifest":{
+  "version": "1.0.0",
+  "bundles": [
     {
-      "pkg": "com.example.app.add",
-      "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_add.so"
+      "uri": "main",
+      "pkg": "com.example.app.main"
     },
     {
-      "pkg": "com.example.app.main",
-      "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_main.so"
+      "uri":"home",
+      "pkg":"com.example.app.home"
+    },
+    {
+      "uri":"add",
+      "pkg":"com.example.app.add"
     }
   ]
+ },
+ "updates": [
+  {
+    "pkg": "com.example.app.main",
+    "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_main.so"
+  },
+  {
+    "pkg": "com.example.app.add",
+    "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_add.so"
+  }
+ ]
 }
