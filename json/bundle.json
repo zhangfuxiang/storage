@@ -13,6 +13,14 @@
 	{
       "uri":"add",
       "pkg":"com.example.app.add"
+    },
+	{
+      "uri":"image",
+      "pkg":"com.example.app.image"
+    },
+    {
+      "uri": "lib.glide",
+      "pkg": "com.example.lib.glide"
     }
   ]
  },
@@ -24,6 +32,14 @@
   {
     "pkg": "com.example.app.add",
     "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_add.so"
+  },
+  {
+    "pkg": "com.example.app.image",
+    "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_app_image.so"
+  },
+  {
+    "pkg": "com.example.lib.glide",
+    "url": "https://github.com/zhangfuxiang/storage/raw/master/so/libcom_example_lib_glide.so"
   }
  ]
 }
